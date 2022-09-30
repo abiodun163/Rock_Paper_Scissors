@@ -1,0 +1,96 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #282c34;
+    color: #fff;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+}
+
+.rpsButton
+{
+    width: 45px;
+    height: 45px;
+    margin: .5rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.rockButton
+{
+    background-color: burlywood;
+    color: #fff;
+    font-weight: 900;
+    transition: background-color 1000ms;
+}
+
+.rockButton:hover
+{
+    background-color: rgb(177, 137, 86);
+}
+
+.paperButton
+{
+    background-color: antiquewhite;
+    color: rgb(172, 169, 169);
+    font-weight: 900;
+    transition: background-color 1000ms;
+}
+
+.paperButton:hover
+{
+    background-color: rgb(235, 212, 182);
+    color: rgb(172, 169, 169);
+}
+
+.scissorsButton
+{
+    background-color: green;
+    color: #fff;
+    font-weight: 900;
+    transition: background-color 1000ms;
+}
+
+.scissorsButton:hover
+{
+    background-color: rgb(60, 128, 60);
+    color: #fff;
+}    
+
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearGame
+{
+    padding: .5rem 1rem;
+    background-color: rgb(199, 5, 5);
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: .9rem;
+    
+    transition: background-color 1000ms;
+}
+
+.clearGame:hover
+{
+    background-color: rgb(231, 6, 6);
+}    
+
+.gameResult, .gameHand, .gameScore
+{
+    text-align: center;
+    line-height: 1.2rem;
+    margin-bottom: .6rem;
+    font-weight: 900;
+}
